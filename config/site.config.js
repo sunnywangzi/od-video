@@ -39,7 +39,16 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/aria2','/transmission','/video','/笔记本','/工具','/离线下载','/视频','/随记','/图片','/应用'],
+  protectedRoutes: ['/aria2',
+                    '/transmission',
+                    '/video',
+                    '/笔记本',
+                    '/工具',
+                    '/离线下载',
+                    '/视频',
+                    '/随记',
+                    '/图片',
+                    '/应用'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:wceshi@outlook.com',
