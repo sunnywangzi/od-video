@@ -48,7 +48,8 @@ module.exports = {
                     '/视频',
                     '/随记',
                     '/图片',
-                    '/应用'],
+                    '/应用',
+                    '/public'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:wceshi@outlook.com',
