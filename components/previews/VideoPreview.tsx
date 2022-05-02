@@ -89,7 +89,7 @@ const VideoPreview: FC<{ file: OdFileObject }> = ({ file }) => {
   const subtitle = `/api/raw/?path=${vtt}${hashedToken ? `&odpt=${hashedToken}` : ''}`
 
   // We also format the raw video file for the in-browser player as well as all other players
-  const videoUrl = `/api/raw/?path=${asPath}${hashedToken ? `&odpt=${hashedToken}` : ''}`.replace('https://wceshi-my.sharepoint.com/','https://od.wza.workers.dev/')
+  const videoUrl = `/api/raw/?path=${asPath}${hashedToken ? `&odpt=${hashedToken}` : ''}`
 
   const isFlv = getExtension(file.name) === 'flv'
   const {
