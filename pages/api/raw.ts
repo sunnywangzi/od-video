@@ -80,7 +80,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         res.writeHead(200, headers)
         stream.pipe(res)
       } else {
-        res.redirect(data['@microsoft.graph.downloadUrl'])
+        res.redirect(data['@microsoft.graph.downloadUrl'].replce('https://wceshi-my.sharepoint.com','https://od.wza.workers.dev'))
       }
     } else {
       res.status(404).json({ error: 'No download url found.' })
