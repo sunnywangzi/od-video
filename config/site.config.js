@@ -14,7 +14,7 @@ module.exports = {
   icon: '/icons/my.png',
 
   // The name of your website. Present alongside your icon.
-  title: "测试部署站点",
+  title: "视频加速",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/视频',
