@@ -52,6 +52,14 @@ module.exports = {
       name: '主站',
       link: 'https://wp.wtz1.ml',
     },
+   {
+      name: 'Cloudreve',
+      link: 'https://wp2.wtz1.ml',
+    },
+    {
+      name: 'Alist',
+      link: 'https://wp3.wtz1.ml',
+    },
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
